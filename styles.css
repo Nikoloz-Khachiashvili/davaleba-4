@@ -1,0 +1,47 @@
+.header{
+    color: red;
+}
+
+.name,.age,.email,.password,.date,.time,.submit{
+    border: solid black 2px;
+    height: 45px;
+    width: 320px;
+}
+
+body{
+    background-color: lightblue;
+}
+
+.header2{
+    color: darkgoldenrod;
+}
+
+.checkbox{
+    display: inline-flex;
+    align-items: center;
+}
+
+.checkbox input[type="checkbox"] {
+    order: 2;
+    margin-left: 5px;
+  }
+
+  .checkbox label {
+    order: 1;
+  }
+
+  .link{
+    font-size: 30px;
+  }
+
+  .submit{
+    display:block;
+    background-color: blue;
+    width: 120px;
+     
+  }
+
+  input[type="submit"] {
+    color: white;
+  }
+  
